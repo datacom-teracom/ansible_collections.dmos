@@ -1,2 +1,3 @@
-# ansible_collections.dmos
-Ansible Network Collection for Datacom DmOS
+# Ansible Collection - datacom.dmos
+
+Documentation for the collection.
