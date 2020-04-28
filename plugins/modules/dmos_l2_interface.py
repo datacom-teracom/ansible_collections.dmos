@@ -38,7 +38,7 @@ ANSIBLE_METADATA = {
 DOCUMENTATION = """
 ---
 module: dmos_l2_interface
-version_added: '2.10'
+version_added: '2.9'
 short_description: Manages Layer-2 interface on DATACOM DmOS devices.
 description:
   - This module provides a declarative management of Layer-2 interfaces

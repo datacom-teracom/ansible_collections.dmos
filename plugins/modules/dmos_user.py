@@ -38,7 +38,7 @@ ANSIBLE_METADATA = {
 DOCUMENTATION = """
 ---
 module: dmos_user
-version_added: '2.10'
+version_added: '2.9'
 short_description: Manages User attributes on DATACOM DmOS devices.
 description:
   - This module provides a declarative management of User

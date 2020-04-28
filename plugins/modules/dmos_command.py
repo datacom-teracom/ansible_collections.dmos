@@ -20,7 +20,7 @@ ANSIBLE_METADATA = {
 DOCUMENTATION = """
 ---
 module: dmos_command
-version_added: '2.10'
+version_added: '2.9'
 short_description: Execute show commands on dmos devices.
 description: Execute show commands on dmos devices.
 author:

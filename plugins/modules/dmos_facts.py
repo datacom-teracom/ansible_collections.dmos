@@ -19,7 +19,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 DOCUMENTATION = """
 ---
 module: dmos_facts
-version_added: '2.10'
+version_added: '2.9'
 short_description: Get facts about dmos devices.
 description:
   - Collects facts from network devices running the dmos operating

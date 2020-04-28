@@ -38,7 +38,7 @@ ANSIBLE_METADATA = {
 DOCUMENTATION = """
 ---
 module: dmos_vlan
-version_added: '2.10'
+version_added: '2.9'
 short_description: Manages VLANs on DATACOM DmOS devices.
 description:
   - This module provides a declarative management of VLANs
