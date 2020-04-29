@@ -13,7 +13,7 @@ author:
   - Vinicius Kleinubing (@vgkleinubing) <vinicius.grubel@datacom.com.br>
   - LDS Labs (@lds-labs)
 cliconf: dmos
-short_description: Use junos cliconf to run command on Juniper Junos OS platform
+short_description: Use dmos cliconf to run command on Datacom DmOS platform
 description:
   - This dmos plugin provides low level abstraction apis for
     sending and receiving CLI commands from Datacom DmOS network devices.
