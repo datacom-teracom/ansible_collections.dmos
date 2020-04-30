@@ -19,7 +19,14 @@ management of [Datacom] DmOS equipment.
 
 # Usage guideline
 
-## Install Collection
+## Install collection
+
+### Install requirements
+
+```bash
+sudo pip3 isntall ansible
+sudo pip3 install paramiko
+```
 
 ### Install collection from ansible-galaxy
 
@@ -49,13 +56,16 @@ Basic example need two files:
 - vlan.yml
 
 ### Invetory example
+
+Change xxx.xxx.xxx.xxx to Datacom DmOS switch ip.
+
 hosts
 ```yml
-all:vars]
+[all:vars]
 ansible_connection=ansible.netcommon.network_cli
 
 [dmos]
-DM4170 ansible_host=172.22.126.157
+DM4170 ansible_host=xxx.xxx.xxx.xxx
 
 [dmos:vars]
 ansible_user=admin
@@ -95,6 +105,6 @@ vlan.yml
 
 ### Running example
 ```bash
-ansible-playbook vlan.yml
+ansible-playbook -i hosts vlan.yml
 ```
 
