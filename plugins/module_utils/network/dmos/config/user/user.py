@@ -199,7 +199,7 @@ class User(ConfigBase):
 
             description = user_config.get('description')
             if description is not None:
-                commands.append('{0} description {1}'.format(cmd, description))
+                commands.append('{0} description "{1}"'.format(cmd, description))
             session = user_config.get('session')
             if session is not None:
                 for key, value in session.items():
