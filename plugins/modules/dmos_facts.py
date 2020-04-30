@@ -60,7 +60,6 @@ options:
       - l2_interface
       - lldp
       - l3_interface
-      - user
       - twamp
     required: false
 """

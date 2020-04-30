@@ -15,7 +15,6 @@ management of [Datacom] DmOS equipment.
 - dmos_sntp
 - dmos_twamp
 - dmos_vlan
-- dmos_user
 
 # Usage guideline
 

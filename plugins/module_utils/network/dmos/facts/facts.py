@@ -23,7 +23,6 @@ from ansible_collections.datacom.dmos.plugins.module_utils.network.dmos.facts.li
 from ansible_collections.datacom.dmos.plugins.module_utils.network.dmos.facts.l2_interface.l2_interface import L2_interfaceFacts
 from ansible_collections.datacom.dmos.plugins.module_utils.network.dmos.facts.lldp.lldp import LldpFacts
 from ansible_collections.datacom.dmos.plugins.module_utils.network.dmos.facts.l3_interface.l3_interface import L3_interfaceFacts
-from ansible_collections.datacom.dmos.plugins.module_utils.network.dmos.facts.user.user import UserFacts
 from ansible_collections.datacom.dmos.plugins.module_utils.network.dmos.facts.twamp.twamp import TwampFacts
 
 
@@ -36,7 +35,6 @@ FACT_RESOURCE_SUBSETS = dict(
     l2_interface=L2_interfaceFacts,
     lldp=LldpFacts,
     l3_interface=L3_interfaceFacts,
-    user=UserFacts,
     twamp=TwampFacts,
 )
 
