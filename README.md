@@ -23,7 +23,7 @@ management of [Datacom] DmOS equipment.
 ### Install requirements
 
 ```bash
-sudo pip3 isntall ansible
+sudo pip3 install ansible
 sudo pip3 install paramiko
 ```
 
