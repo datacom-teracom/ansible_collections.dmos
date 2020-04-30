@@ -189,7 +189,7 @@ class Vlan(ConfigBase):
 
             name = diff.get('name')
             if name is not None:
-                commands.append('{0} name {1}'.format(vlan_cmd, name))
+                commands.append('{0} name "{1}"'.format(vlan_cmd, name))
 
             interface = diff.get('interface')
             if interface is not None:
